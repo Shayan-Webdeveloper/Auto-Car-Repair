@@ -14,7 +14,7 @@ export default function Services() {
                          height={100}
                          className="object-cover w-full h-full object-center"
                     />
-                    <p className="learnmore text-center text-white mt-2">Learn More</p>
+                    <p className="learnmore text-center text-white mt-5">Learn More</p>
                </div>
                <div className="relative aspect-2/3 overflow-hidden img-card cursor-pointer hover:scale-110 hover:p-5 hover:pb-15 hover:z-20 hover:rounded-2xl bg-red-500 transition-all duration-500">
                     <Image
@@ -24,7 +24,7 @@ export default function Services() {
                          height={100}
                          className="object-cover w-full h-full object-center"
                     />
-                    <p className="learnmore text-center text-white mt-2">Learn More</p>
+                    <p className="learnmore text-center text-white mt-5">Learn More</p>
                </div>
               <div className="relative aspect-2/3 overflow-hidden img-card cursor-pointer hover:scale-110 hover:p-5 hover:pb-15 hover:z-20 hover:rounded-2xl bg-red-500 transition-all duration-500">
                     <Image
@@ -34,7 +34,7 @@ export default function Services() {
                          height={100}
                          className="object-cover w-full h-full object-center"
                     />
-                    <p className="learnmore text-center text-white mt-2">Learn More</p>
+                    <p className="learnmore text-center text-white mt-5">Learn More</p>
                </div>
                <div className="relative aspect-2/3 overflow-hidden img-card cursor-pointer hover:scale-110 hover:p-5 hover:pb-15 hover:z-20 hover:rounded-2xl bg-red-500 transition-all duration-500">
                     <Image
@@ -44,7 +44,7 @@ export default function Services() {
                          height={100}
                          className="object-cover w-full h-full object-center"
                     />
-                    <p className="learnmore text-center text-white mt-2">Learn More</p>
+                    <p className="learnmore text-center text-white mt-5">Learn More</p>
                </div>
                <div className="relative aspect-2/3 overflow-hidden img-card cursor-pointer hover:scale-110 hover:p-7 hover:pb-15 hover:z-20 hover:rounded-2xl bg-red-500 transition-all duration-500">
                     <Image
@@ -54,7 +54,7 @@ export default function Services() {
                          height={100}
                          className="object-cover w-full h-full object-center"
                     />
-                    <p className="learnmore text-center text-white mt-2">Learn More</p>
+                    <p className="learnmore text-center text-white mt-5">Learn More</p>
                </div>
           </div>
      </div>
