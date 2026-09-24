@@ -1,3 +1,4 @@
+'use client'
 export default function About() {
      return(
      <div className="w-full items-stretch bg-[#222222] p-25">

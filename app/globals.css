@@ -16,3 +16,6 @@
   a {
     text-decoration: none;
   }
+  .img-card:hover #learnmore {
+     display: block;
+  }

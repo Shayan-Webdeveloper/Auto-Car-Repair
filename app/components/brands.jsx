@@ -1,3 +1,4 @@
+'use client'
 export default function Brands() {
      return(
      <div className="absolute flex left-1/2 top-160.5 w-[80%] -translate-x-1/2 justify-between rounded-2xl rounded-b-none bg-[#222222] p-10 text-center">
