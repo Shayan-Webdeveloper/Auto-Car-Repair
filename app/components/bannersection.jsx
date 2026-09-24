@@ -13,12 +13,12 @@ export default function Bannersection() {
 
   return (
     <div
-      className="relative h-screen overflow-hidden bg-cover bg-center bg-no-repeat pt-20 ps-20 pe-20 text-white transition-[background-image] duration-500"
+      className="relative h-180 overflow-hidden bg-cover bg-center bg-no-repeat pt-20 ps-20 pe-20  text-white transition-[background-image] duration-500"
       style={{ backgroundImage: `url("${bannerImages[currentSlide]}")` }}
     >
 
-    <div className="absolute left-6 right-6 top-20 h-100 w-auto border-l-2 border-red-600 md:left-20 md:right-20"></div>
-    <div className="absolute left-6 right-6 top-46 mt-2 h-80 w-auto border-x-2 border-b-2 border-slate-600 md:left-20 md:right-20"></div>
+    <div className="absolute left-6 right-6 top-20 h-28 w-auto border-l-2 border-red-600 md:left-20 md:right-20"></div>
+    <div className="absolute left-6 right-6 top-46 mt-2 h-75 w-auto border-x-2 border-b-2 border-slate-600 md:left-20 md:right-20"></div>
     <div className="absolute w-auto top-11 right-17">
      <svg xmlns="http://www.w3.org/2000/svg"  className="w-7 cursor-pointer bg-gray-400 p-1.5 rounded-full" viewBox="0 0 640 640"><path d="M581.7 188.1C575.5 164.4 556.9 145.8 533.4 139.5C490.9 128 320.1 128 320.1 128C320.1 128 149.3 128 106.7 139.5C83.2 145.8 64.7 164.4 58.4 188.1C47 231 47 320.4 47 320.4C47 320.4 47 409.8 58.4 452.7C64.7 476.3 83.2 494.2 106.7 500.5C149.3 512 320.1 512 320.1 512C320.1 512 490.9 512 533.5 500.5C557 494.2 575.5 476.3 581.8 452.7C593.2 409.8 593.2 320.4 593.2 320.4C593.2 320.4 593.2 231 581.8 188.1zM264.2 401.6L264.2 239.2L406.9 320.4L264.2 401.6z"/></svg>
      <svg xmlns="http://www.w3.org/2000/svg"  className="w-7 cursor-pointer mt-2 bg-gray-400 p-1.5 rounded-full" viewBox="0 0 640 640"><path d="M196.3 512L103.4 512L103.4 212.9L196.3 212.9L196.3 512zM149.8 172.1C120.1 172.1 96 147.5 96 117.8C96 103.5 101.7 89.9 111.8 79.8C121.9 69.7 135.6 64 149.8 64C164 64 177.7 69.7 187.8 79.8C197.9 89.9 203.6 103.6 203.6 117.8C203.6 147.5 179.5 172.1 149.8 172.1zM543.9 512L451.2 512L451.2 366.4C451.2 331.7 450.5 287.2 402.9 287.2C354.6 287.2 347.2 324.9 347.2 363.9L347.2 512L254.4 512L254.4 212.9L343.5 212.9L343.5 253.7L344.8 253.7C357.2 230.2 387.5 205.4 432.7 205.4C526.7 205.4 544 267.3 544 347.7L544 512L543.9 512z"/></svg>
@@ -33,7 +33,7 @@ export default function Bannersection() {
 <p className="relative z-10 ms-12 mt-20 flex items-center"><span className="border rounded-full border-red-600 p-1 flex justify-center me-3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="red" className="w-6"><path className="text-red-500" d="M187.2 100.9C174.8 94.1 159.8 94.4 147.6 101.6C135.4 108.8 128 121.9 128 136L128 504C128 518.1 135.5 531.2 147.6 538.4C159.7 545.6 174.8 545.9 187.2 539.1L523.2 355.1C536 348.1 544 334.6 544 320C544 305.4 536 291.9 523.2 284.9L187.2 100.9z"/></svg></span>See how we work</p>
 <div className="flex justify-between align-items-center">
 
-<p className="mt-20">
+<p className="mt-15 z-80">
   {String(currentSlide + 1).padStart(2, "0")}/03
 </p>
 <div className="flex items-end justify-between px-4">
