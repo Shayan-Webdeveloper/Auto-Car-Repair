@@ -42,9 +42,9 @@ export default function Bannersection() {
          key={image}
          type="button"
          onClick={() => setCurrentSlide(index)}
-         className="cursor-pointer p-1"
+         className="cursor-pointer"
        >
-         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" className={`w-7 ${currentSlide === index ? "fill-red-500" : "fill-gray-500"}`}>
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" className={`w-9 ${currentSlide === index ? "fill-red-500" : "fill-gray-500"}`}>
            <path d="M96 320C96 302.3 110.3 288 128 288L512 288C529.7 288 544 302.3 544 320C544 337.7 529.7 352 512 352L128 352C110.3 352 96 337.7 96 320z" />
          </svg>
        </button>
