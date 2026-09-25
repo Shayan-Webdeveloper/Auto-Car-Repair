@@ -17,7 +17,7 @@
           {currentSlide === 0 && (
           <div className="mx-auto my-16 grid max-w-5xl grid-cols-1 gap-8 px-6 md:grid-cols-2">
                <article className="relative rounded-2xl bg-white pt-44 text-left">
-               <div className="absolute w-full left-4 top-0 h-44 skew-x-10 rounded-2xl bg-red-500 px-10 pt-5 text-white">
+               <div className="absolute w-full left-3.5 top-0 h-44 skew-x-10 rounded-2xl bg-red-500 px-10 pt-5 text-white">
                <h2 className="text-xl italic">Basic Oil Change</h2>
                <p className="mt-4 text-sm italic">Starting at</p>
                <p className="mt-4 text-5xl font-semibold italic">$29.99</p>
@@ -38,7 +38,7 @@
                </article>
 
                <article className="relative  rounded-2xl bg-white pt-44 text-left">
-               <div className="absolute w-full left-4 top-0 h-44 skew-x-10 rounded-2xl bg-red-500 px-10 pt-5 text-white">
+               <div className="absolute w-full left-3.5 top-0 h-44 skew-x-10 rounded-2xl bg-red-500 px-10 pt-5 text-white">
                <h2 className="text-xl italic">Express Service</h2>
                <p className="mt-4 text-sm italic">Starting at</p>
                <p className="mt-4 text-5xl font-semibold italic">$49.99</p>

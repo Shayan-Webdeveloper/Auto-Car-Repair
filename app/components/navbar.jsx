@@ -52,7 +52,7 @@ export default function Navbar() {
             </button>
           </div>
 
-          <details className="relative sm:hidden">
+          <details className="relative z-100 sm:hidden">
             <summary
               className="flex size-10 cursor-pointer list-none items-center justify-center rounded-full border border-[#292929] text-white transition-colors duration-200 hover:border-white/50 hover:bg-white/10 [&::-webkit-details-marker]:hidden"
               aria-label="Open navigation menu"
