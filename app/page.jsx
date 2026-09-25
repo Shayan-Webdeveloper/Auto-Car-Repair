@@ -9,6 +9,9 @@ import TestimonialsSection from '@/app/components/testimonials'
 import Pricing from '@/app/components/pricing'
 import Footer from '@/app/components/footer' 
 import Appointment from '@/app/components/appointment'
+import FAQ from '@/app/components/FAQ'
+import Blog from '@/app/components/blog'
+import Newsletter from '@/app/components/newsletter'
 export default function Home() {
 
   return (
@@ -23,6 +26,9 @@ export default function Home() {
     <TestimonialsSection />
     <Pricing />
     <Appointment />
+    <FAQ />
+    <Blog />
+    <Newsletter />
     <Footer />
     </>
   );

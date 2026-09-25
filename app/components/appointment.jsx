@@ -4,7 +4,7 @@ export default function AppointmentForm() {
   return (
     <section className="grid grid-cols-1 bg-[#222222] mt-50 text-white md:grid-cols-2">
       <div
-        className="min-h-100 bg-cover bg-center md:min-h-full"
+        className="min-h-100 bg-cover bg-center md:min-h-full rounded"
         style={{ backgroundImage: `url("/appointment-car.jfif    ")`}}
      ></div>
 

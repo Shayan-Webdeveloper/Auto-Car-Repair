@@ -7,7 +7,7 @@ export default function Services() {
           <h1 className="text-white text-5xl text-center mt-4">Our Services</h1>
           <div className="mt-10 grid grid-cols-5 pt-10">
                <div className="relative aspect-2/3 overflow-hidden img-card cursor-pointer hover:scale-110 hover:p-5 hover:ps-7 hover:pb-15 hover:z-20 hover:rounded-2xl bg-red-500 transition-all duration-500">
-                    <Image
+                         <Image
                          src="/repairing-image1.jfif"
                          alt="Auto Works"
                          width={400}
