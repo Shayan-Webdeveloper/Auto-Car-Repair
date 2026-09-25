@@ -8,6 +8,7 @@ import Stats from '@/app/components/stats'
 import TestimonialsSection from '@/app/components/testimonials'
 import Pricing from '@/app/components/pricing'
 import Footer from '@/app/components/footer' 
+import Appointment from '@/app/components/appointment'
 export default function Home() {
 
   return (
@@ -21,6 +22,7 @@ export default function Home() {
     <Stats />
     <TestimonialsSection />
     <Pricing />
+    <Appointment />
     <Footer />
     </>
   );
