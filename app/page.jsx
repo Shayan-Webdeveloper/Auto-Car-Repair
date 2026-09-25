@@ -7,6 +7,7 @@ import Choose from '@/app/components/choose'
 import Stats from '@/app/components/stats'
 import TestimonialsSection from '@/app/components/testimonials'
 import Pricing from '@/app/components/pricing'
+import Footer from '@/app/components/footer' 
 export default function Home() {
 
   return (
@@ -20,7 +21,7 @@ export default function Home() {
     <Stats />
     <TestimonialsSection />
     <Pricing />
-    <div className='p-5'></div>
+    <Footer />
     </>
   );
 }
