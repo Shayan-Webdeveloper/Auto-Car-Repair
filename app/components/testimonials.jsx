@@ -1,6 +1,6 @@
 export default function TestimonialsSection() {
   return (
-    <section className="bg-[#292929] text-white">
+    <section className="bg-[#292929] h-200 text-white relative">
 
       <div className="mx-auto max-w-6xl px-6 py-24 text-center">
         <p className="text-xl font-semibold tracking-[0.3em] text-red-600">TESTIMONIALS</p>
@@ -16,42 +16,50 @@ export default function TestimonialsSection() {
         <div className="mt-4 text-xl tracking-widest text-red-600">★★★★★</div>
 
         <div className="mt-12 flex flex-col items-center justify-center gap-4 md:flex-row">
-          <div className="flex w-64 skew-x-10 items-center gap-3 rounded-lg bg-red-600 px-6 py-4">
-            <div className="flex skew-x-12 items-center gap-3">
-              <img src="/Avatar1.jfif" alt="Sarah Tumiwa" className="h-10 w-10 rounded-full object-cover" />
-              <div className="text-left">
+          <div className="flex w-90 text-center justify-center skew-x-10 items-center gap-3 rounded-lg bg-red-600 px-6 py-4">
+            <div className="flex itew-x-ems-center gap-3">
+               <div className="flex align-middle items-center gap-3 skew-[-200]">
+
+              <img src="/Avatar1.jfif" alt="Sarah Tumiwa" className="h-15 skew-[-100] rotate-5 w-15 rounded-full object-cover" />
+              <div className="text-left rotate-0">
                 <p className="text-sm font-semibold text-white">Sarah Tumiwa</p>
                 <p className="text-[10px] text-red-100">California, USA</p>
+               </div>
               </div>
             </div>
           </div>
 
-          <div className="flex w-64 skew-x-10 items-center gap-3 rounded-lg bg-white px-6 py-4">
-            <div className="flex skew-x-12 items-center gap-3">
-              <img src="/Avatar1.jfif" alt="John Dolton" className="h-10 w-10 rounded-full object-cover" />
-              <div className="text-left">
-                <p className="text-sm font-semibold text-black">John Dolton</p>
-                <p className="text-[10px] text-gray-500">New York, USA</p>
-              </div>
-            </div>
-          </div>
+          <div className="flex w-90 text-center justify-center skew-x-10 items-center gap-3 rounded-lg bg-white px-6 py-4">
+            <div className="flex itew-x-ems-center gap-3">
+               <div className="flex align-middle items-center gap-3 skew-[-200]">
 
-          <div className="flex w-64 skew-x-10 items-center gap-3 rounded-lg bg-white px-6 py-4">
-            <div className="flex skew-x-12 items-center gap-3">
-              <img src="/Avatar1.jfif" alt="Sarah Tumiwa" className="h-10 w-10 rounded-full object-cover" />
-              <div className="text-left">
+              <img src="/Avatar1.jfif" alt="Sarah Tumiwa" className="h-15 skew-[-100] rotate-5 w-15 rounded-full object-cover" />
+              <div className="text-left rotate-0">
                 <p className="text-sm font-semibold text-black">Sarah Tumiwa</p>
-                <p className="text-[10px] text-gray-500">Karen Miller</p>
+                <p className="text-[10px] text-[#8D8D8B]">California, USA</p>
+               </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex w-90 text-center justify-center skew-x-10 items-center gap-3 rounded-lg bg-white px-6 py-4">
+            <div className="flex itew-x-ems-center gap-3">
+               <div className="flex align-middle items-center gap-3 skew-[-200]">
+
+              <img src="/Avatar1.jfif" alt="Sarah Tumiwa" className="h-15 skew-[-100] rotate-5 w-15 rounded-full object-cover" />
+              <div className="text-left rotate-0">
+                <p className="text-sm font-semibold text-black">Sarah Tumiwa</p>
+                <p className="text-[10px] text-[#8D8D8B]">California, USA</p>
+               </div>
               </div>
             </div>
           </div>
         </div>
 
         <div
-          className="relative mt-20 overflow-hidden rounded-xl bg-cover bg-center text-left"
+          className="absolute top-140 w-270 mt-20 overflow-hidden rounded-xl bg-cover bg-center text-left"
           style={{ backgroundImage: "url('/banner-image1.jpg')" }}
         >
-          <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(0,0,0,0.75),rgba(0,0,0,0.1))]"></div>
 
           <div className="relative px-15 py-20 md:py-24">
             <h3 className="max-w-sm text-4xl w-90 font-medium leading-tight">
